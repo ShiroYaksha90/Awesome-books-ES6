@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Awesomebooks</title>
+</head>
+<body>
+    <header class="head">
+        <nav class="nav-bar">
+            <h1>Awesome Books</h1>
+            <ul class="nav-list">
+            <li >
+                <a id="l-link" href="#">List</a>
+                
+            </li>
+            <hr>
+            <li>
+                <a id="a-link" href="#">Add new</a>
+                
+            </li>
+            <hr>
+            <li ><a id="c-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <p id="date"></p>
+    </header>
+    <section class="display">
+        <h1>All Awesome Books</h1>
+        <table class="library"></table>
+        <hr>
+    </section>
+    <section class="add">
+        <h1>Add a new book</h1>
+        <form id="form">
+            <input type="text" placeholder="Title" id="book-title" name="title" >
+            <br>
+            <input type="text" placeholder="Author" id="book-author" name="author" >
+            <br>
+            <span class="alert"></span><br>
+            <button type="submit" id="addbtn">Add</button>
+        </form>
+    </section>
+    <section class="contact">
+        <h1>Contact information</h1>
+        <p>Do yoy have any questions or you just want to say "Hello"? <br>You can reach out to us!</p>
+        <ul>
+            <li>Our email eamil@email.com</li>
+            <li>our phone number: 0043586534422</li>
+            <li>Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+    </section>
+    <footer class="foot">
+        <h2>Copyright: .....</h2>
+    </footer>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
