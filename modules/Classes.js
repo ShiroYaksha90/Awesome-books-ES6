@@ -1,6 +1,5 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable no-use-before-define */
-
 // Creat Book class
 class Book {
   constructor(title, author) {
@@ -19,7 +18,7 @@ class Library {
   addBook(newItem) {
     this.books.push(newItem);
     localStorage.setItem('DB', JSON.stringify(this.books));
-    Display(newItem);
+    showcase(newItem);
   }
 
   // remove a book
@@ -31,16 +30,7 @@ class Library {
   }
 }
 const storeBook = new Library();
-
-// fetch values from input
-const getInput = () => {
-  const title = document.querySelector('#book-title').value;
-  const author = document.querySelector('#book-author').value;
-  const addItem = new Book(title, author);
-  return addItem;
-};
-// Showcase the list of books
-let Display = (index) => {
+const showcase = (index) => {
   const bookList = document.querySelector('.library');
   const items = document.createElement('tr');
   items.setAttribute('id', index.bookid);
@@ -53,6 +43,14 @@ let Display = (index) => {
   items.appendChild(rmbtn);
   bookList.appendChild(items);
 };
+// fetch values from input
+const getInput = () => {
+  const title = document.querySelector('#book-title').value;
+  const author = document.querySelector('#book-author').value;
+  const addItem = new Book(title, author);
+  return addItem;
+};
+
 const error = () => {
   const span = document.querySelector('.alert');
   span.textContent = 'Fields required';
@@ -78,5 +76,5 @@ window.onload = () => {
     storeBook.books = [];
     return;
   }
-  storeBook.books.forEach((item) => Display(item));
+  storeBook.books.forEach((item) => showcase(item));
 };
