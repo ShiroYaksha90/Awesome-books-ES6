@@ -64,7 +64,7 @@ const addNewBook = document.getElementById('addbtn');
 const title = document.querySelector('#book-title');
 const author = document.querySelector('#book-author');
 addNewBook.addEventListener('click', (event) => {
-  if (title.value == '' || author.value == '') {
+  if (title.value === '' || author.value === '') {
     event.preventDefault();
     error();
   } else {
