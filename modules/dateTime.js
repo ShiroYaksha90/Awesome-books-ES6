@@ -8,5 +8,3 @@ const setTime = () => {
 };
 
 setInterval(setTime, 1000);
-
-// eslint-disable-next-line import/prefer-default-export
