@@ -1,5 +1,4 @@
 /* eslint-disable max-classes-per-file */
-/* eslint-disable no-use-before-define */
 // Creat Book class
 class Book {
   constructor(title, author) {
@@ -8,7 +7,6 @@ class Book {
     this.author = author;
   }
 }
-
 class Library {
   constructor() {
     this.books = [];
@@ -18,7 +16,6 @@ class Library {
   addBook(newItem) {
     this.books.push(newItem);
     localStorage.setItem('DB', JSON.stringify(this.books));
-    showcase(newItem);
   }
 
   // remove a book
@@ -50,7 +47,6 @@ const getInput = () => {
   const addItem = new Book(title, author);
   return addItem;
 };
-
 const error = () => {
   const span = document.querySelector('.alert');
   span.textContent = 'Fields required';
