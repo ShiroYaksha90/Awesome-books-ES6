@@ -28,7 +28,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[Awesom Books]** is a website that adds books with their titles and authors
+**[Awesom Books]** is a simple app that adds books with their titles and authors, and it's implemented using ES6 syntax.
 
 
 ## 🛠 Built With <a name="built-with"></a>
