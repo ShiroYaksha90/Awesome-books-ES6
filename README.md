@@ -28,7 +28,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[Awesom Books]** This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser.
+**[Awesom Books]** is an education project that allow users to add desired books to the list and also delete books. It makes use of local storage to preserve the data on the web browser. Each item added (ie..book) is created dynamically using JavaScript ES6 syntax.
 
 
 ## 🛠 Built With <a name="built-with"></a>
