@@ -28,7 +28,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[Awesom Books]** is a simple app that adds books with their titles and authors, and it's implemented using ES6 syntax.
+**[Awesom Books]** This is education project that allow user to add desire books to the list and also delete books. It makes use of local storage to preserve the data on the web browser.
 
 
 ## 🛠 Built With <a name="built-with"></a>
