@@ -15,7 +15,7 @@
     <!-- - [Run tests](#run-tests) -->
     <!-- - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
-<!-- - [🔭 Future Features](#future-features) -->
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
   <!-- - [🙏 Acknowledgements](#acknowledgements) -->
@@ -80,6 +80,11 @@ To get a local copy up and running follow these simple example steps:
 - LinkedIn: [Basim Aljazaeri](https://www.linkedin.com/in/basim-aljazaeri-603682201/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Add a book]**
+- [ ] **[Remove a book]**
+- [ ] **[Utilize local storage to preserve data on the web browser]**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
